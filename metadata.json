@@ -1,0 +1,5 @@
+{
+  "name": "PolyNodes Lite",
+  "description": "A visual node-based programming environment to create, execute, and manage computational graphs. This application provides a React-based frontend for the PolyNodes Flask backend.",
+  "requestFramePermissions": []
+}
