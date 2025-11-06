@@ -11,7 +11,7 @@ PolyNodes Lite is a lightweight, node-based visual programming environment. It f
 - **Real-time Execution**: Run the entire graph on the server with a single click.
 - **Node Output Previews**: Select any node after a run to see its output directly in the sidebar, including image thumbnails.
 - **Core Node Types**:
-    - **Math**: Perform basic arithmetic operations (+, -, \*, /).
+    - **Math**: Perform basic arithmetic operations (+, -, *, /).
     - **Combine**: Concatenate two string or number inputs.
     - **Image Loader**: Load images from the `./images` directory to use in the graph.
     - **Wave Multiplier**: Repeats a string input a specified number of times.
@@ -33,7 +33,7 @@ The backend server handles all the logic for graph execution, saving/loading, an
 
 2.  **Install Dependencies**:
     ```bash
-    pip install flask icecream pillow
+    pip install flask flask-cors icecream pillow
     ```
 
 3.  **Create Directories**: The application requires two directories in the same folder as your Python script.
