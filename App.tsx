@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect, useCallback } from 'react';
 import { Header } from './components/Header';
 import { Sidebar } from './components/Sidebar';
@@ -31,7 +30,6 @@ const App: React.FC = () => {
       setSavedGraphs(graphs);
     } catch (error) {
       console.error('Failed to load graphs list:', error);
-      alert('Failed to load graphs list.');
     }
   }, []);
 
@@ -41,7 +39,6 @@ const App: React.FC = () => {
       setAvailableImages(images);
     } catch (error) {
       console.error('Failed to load images list:', error);
-      alert('Failed to load images list.');
     }
   }, []);
 

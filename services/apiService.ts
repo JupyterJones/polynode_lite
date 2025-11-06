@@ -1,7 +1,6 @@
-
 import { GraphModel, ExecutionResults, GraphFile } from '../types';
 
-const API_BASE = ''; // Assuming the API is served from the same origin
+const API_BASE = 'http://localhost:5700'; // Point to the Flask backend
 
 async function handleResponse<T,>(response: Response): Promise<T> {
   if (!response.ok) {
